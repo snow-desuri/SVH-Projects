@@ -1,3 +1,6 @@
+
+// To stay within the scope of the challenege, I COULD have used switch statements here, but I elected not to as it was not an expectation of the challenge. I want to try and stay within the scope of the challenge for these. 
+
 #include <iostream>
 using namespace std;
 
@@ -38,6 +41,5 @@ int main()
 		cout << "Congratulations you aced the test!" << endl;
 	}
 
-	system("pause");
-
+	 return 0;
 }
