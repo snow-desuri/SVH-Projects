@@ -13,7 +13,9 @@ int x;
 
 int main()
 {
-	cout << "Please enter your selection: ";
+	cout << "Please enter your selection: " << endl;
+	cout << " 1. Coke \n 2. Pepsi \n 3. Sprite \n 4. Mt. Dew \n 5. Water" << endl;
+	cout << "Make a selection: ";
 	cin >> x;
 
 	switch (x)
@@ -43,5 +45,5 @@ int main()
 			break;
 	}
 
-		return 0;
+	system("Pause");
 }
