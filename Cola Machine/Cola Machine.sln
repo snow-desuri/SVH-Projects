@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cola Machine", "Cola Machine\Cola Machine.vcxproj", "{5E3667EF-3968-4229-B064-B4D42020C7BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Debug|x64.ActiveCfg = Debug|x64
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Debug|x64.Build.0 = Debug|x64
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Debug|x86.Build.0 = Debug|Win32
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Release|x64.ActiveCfg = Release|x64
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Release|x64.Build.0 = Release|x64
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Release|x86.ActiveCfg = Release|Win32
+		{5E3667EF-3968-4229-B064-B4D42020C7BC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5273FB08-D6CE-466B-BB93-DB7F21405145}
+	EndGlobalSection
+EndGlobal
