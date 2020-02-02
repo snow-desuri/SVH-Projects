@@ -35,7 +35,7 @@ namespace Σngine_Link
                 Token = configjson.Token,
                 TokenType = DSharpPlus.TokenType.Bot,
                 AutoReconnect = true,
-                LogLevel = LogLevel.Debug,
+                LogLevel = LogLevel.Info,
                 UseInternalLogHandler = true
             };
 
