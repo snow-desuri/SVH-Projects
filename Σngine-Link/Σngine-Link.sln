@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Σngine-Link", "Σngine-Link\Σngine-Link.csproj", "{1F67C003-2824-4EC7-9A04-AFC2B1953FEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F67C003-2824-4EC7-9A04-AFC2B1953FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F67C003-2824-4EC7-9A04-AFC2B1953FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F67C003-2824-4EC7-9A04-AFC2B1953FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F67C003-2824-4EC7-9A04-AFC2B1953FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B3A4A7-AD79-4247-8D95-72584E621E5A}
+	EndGlobalSection
+EndGlobal
