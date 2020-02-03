@@ -1,0 +1,21 @@
+﻿<Window x:Class="Σngine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Σngine"
+        mc:Ignorable="d"
+        Title="Σngine" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Background="#FF363636">
+        <Image HorizontalAlignment="Left" x:Name="roverimage" Height="419" Margin="296,0,0,0" VerticalAlignment="Top" Width="496" Source="ScreenShot0007.jpg" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" x:Name="titlelogo" Height="131" Margin="313,0,0,0" VerticalAlignment="Top" Width="433" Source="Untitled-1.png" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" x:Name="sloganimage" Height="56" Margin="296,348,0,0" VerticalAlignment="Top" Width="486" Source="Untitled-2.png" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" x:Name="orglogo" Height="229" VerticalAlignment="Top" Width="232" Source="sigmavh1.png" Stretch="UniformToFill" Margin="34,-24,0,0"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="24,243,0,0" VerticalAlignment="Top" Width="251" AutomationProperties.Name="passwordBox"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="24,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" AutomationProperties.Name="emailBox" SelectionOpacity="-9" AutomationProperties.HelpText="Enter your E-mail address" Text="Enter your E-mail address"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,266,0,0" TextWrapping="Wrap" Text="Register" VerticalAlignment="Top" Foreground="#fff" AutomationProperties.Name="registerLink"/>
+        <Label Content="E-mail address" HorizontalAlignment="Left" Margin="22,187,0,0" Foreground="#fff" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="22,222,0,0" Foreground="#fff" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

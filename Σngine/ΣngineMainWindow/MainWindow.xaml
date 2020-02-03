@@ -1,0 +1,100 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ΣngineMainWindow"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ΣngineMainWindow.MainWindow"
+        mc:Ignorable="d"
+        Title="Σngine" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="sigmavh2_large.png">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="548*"/>
+            <ColumnDefinition Width="247*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl HorizontalAlignment="Left" Height="401" Margin="10,10,0,0" VerticalAlignment="Top" Width="774" Grid.ColumnSpan="2">
+            <TabItem Header="Executive">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="890Ship-Po-02.jpg"/>
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="17*"/>
+                        <ColumnDefinition Width="111*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Content="Synchronize" x:Name="sync" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" Width="75" Click="sync_Click" IsEnabled="False"/>
+                    <Button Content="Contacts" x:Name="contacts" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="75" Click="contacts_Click"/>
+                    <Button Content="Members" x:Name="members" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="75" Click="members_Click" IsEnabled="False"/>
+                    <Button Content="Briefs" x:Name="briefs" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="76" Click="briefs_Click"/>
+                    <Button Content="Investments" x:Name="investments" HorizontalAlignment="Left" Margin="11,335,0,0" VerticalAlignment="Top" Width="75" Click="investments_Click" IsEnabled="False"/>
+                    <ListBox Grid.Column="1" x:Name="contactlisting" HorizontalAlignment="Left" Height="351" Margin="396,12,0,0" VerticalAlignment="Top" Width="260" Visibility="Hidden" />
+                    <Button Content="Add New Contact" x:Name="addcontactbutton" Grid.Column="1" HorizontalAlignment="Left" Margin="288,12,0,0" VerticalAlignment="Top" Width="102" Click="addcontactbutton_Click" Visibility="Hidden"/>
+                    <TextBox Text="Contact Name" GotFocus="contactname_GotFocus" Grid.Column="1" x:Name="contactname" HorizontalAlignment="Left" Height="23" Margin="271,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Tag="" ToolTip="Contact Name" AutomationProperties.HelpText="Contact Name" Visibility="Hidden" />
+                    <TextBox Text="RSI Handle" GotFocus="rsihandle_GotFocus" Grid.Column="1" x:Name="rsihandle" HorizontalAlignment="Left" Height="23" Margin="271,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Visibility="Hidden" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Military" IsEnabled="False">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="Polaris-Landed.jpg"/>
+                    </Grid.Background>
+                    <Button Content="WAR" HorizontalAlignment="Left" Margin="213,338,0,0" VerticalAlignment="Top" Width="75" Height="25" Background="#FF8D1515" IsEnabled="False"/>
+                    <Button Content="Caution" HorizontalAlignment="Left" Margin="327,338,0,0" VerticalAlignment="Top" Width="75" Height="25" Background="#FFBECF12" />
+                    <Button Content="Peace" HorizontalAlignment="Left" Margin="443,338,0,0" VerticalAlignment="Top" Width="75" Height="25" Background="#FF0FE218"/>
+                    <CheckBox Content="CEO approval" HorizontalAlignment="Left" Margin="91,331,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" Height="14" Width="96"/>
+                    <CheckBox Content="Admiral Approval" HorizontalAlignment="Left" Margin="91,348,0,0" VerticalAlignment="Top" Foreground="White" Height="15" Width="117"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Support" IsEnabled="False">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="RSI_Apollo_Flight_02a_AL_PJ01-Squashed.jpg"/>
+                    </Grid.Background>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Industrial" IsEnabled="False">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="Source.jpg"/>
+                    </Grid.Background>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Transport" IsEnabled="False">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="Hull_E_4_compflat.jpg"/>
+                    </Grid.Background>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Research" IsEnabled="False">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="CO_Beauty_Supercollider.jpg"/>
+                    </Grid.Background>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Racing" IsEnabled="False">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="Misc-Razer-Pit-Crew-V4.jpg"/>
+                    </Grid.Background>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Special Projects" IsEnabled="False">
+                <TabItem.Background>
+                    <ImageBrush/>
+                </TabItem.Background>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="82*"/>
+                        <ColumnDefinition Width="687*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="CRUS_Ares_Promo_Action_Banner_Fix_PJ04_optimized.jpg"/>
+                    </Grid.Background>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

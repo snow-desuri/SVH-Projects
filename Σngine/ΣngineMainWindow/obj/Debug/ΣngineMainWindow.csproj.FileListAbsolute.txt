@@ -1,0 +1,14 @@
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\bin\Debug\ΣngineMainWindow.exe.config
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\bin\Debug\ΣngineMainWindow.exe
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\bin\Debug\ΣngineMainWindow.pdb
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\MainWindow.g.cs
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\App.g.cs
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow_MarkupCompile.cache
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow_MarkupCompile.lref
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\MainWindow.baml
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow.g.resources
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow.Properties.Resources.resources
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow.csproj.GenerateResource.cache
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow.exe
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow.pdb
+C:\Users\Snow\source\repos\Σngine\ΣngineMainWindow\obj\Debug\ΣngineMainWindow.csprojAssemblyReference.cache
