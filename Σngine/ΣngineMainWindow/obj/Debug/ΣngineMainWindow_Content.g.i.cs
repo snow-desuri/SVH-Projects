@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("hull_e_4_compflat.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("512px-890_jump_leaving_hurston_3.6.png")]
 
 

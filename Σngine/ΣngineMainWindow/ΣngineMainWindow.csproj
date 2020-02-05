@@ -130,5 +130,8 @@
   <ItemGroup>
     <Resource Include="Hull_E_4_compflat.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="512px-890_Jump_Leaving_Hurston_3.6.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

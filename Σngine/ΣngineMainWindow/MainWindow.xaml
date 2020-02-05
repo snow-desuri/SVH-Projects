@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ΣngineMainWindow"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ΣngineMainWindow.MainWindow"
         mc:Ignorable="d"
-        Title="Σngine" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="sigmavh2_large.png">
+        Title="Σngine Alpha" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="sigmavh2_large.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="548*"/>
@@ -14,9 +14,9 @@
         </Grid.ColumnDefinitions>
         <TabControl HorizontalAlignment="Left" Height="401" Margin="10,10,0,0" VerticalAlignment="Top" Width="774" Grid.ColumnSpan="2">
             <TabItem Header="Executive">
-                <Grid>
+                <Grid Margin="0,3,0,-3">
                     <Grid.Background>
-                        <ImageBrush ImageSource="890Ship-Po-02.jpg"/>
+                        <ImageBrush ImageSource="512px-890_Jump_Leaving_Hurston_3.6.png" Stretch="UniformToFill"/>
                     </Grid.Background>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="17*"/>
@@ -31,6 +31,18 @@
                     <Button Content="Add New Contact" x:Name="addcontactbutton" Grid.Column="1" HorizontalAlignment="Left" Margin="288,12,0,0" VerticalAlignment="Top" Width="102" Click="addcontactbutton_Click" Visibility="Hidden"/>
                     <TextBox Text="Contact Name" GotFocus="contactname_GotFocus" Grid.Column="1" x:Name="contactname" HorizontalAlignment="Left" Height="23" Margin="271,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Tag="" ToolTip="Contact Name" AutomationProperties.HelpText="Contact Name" Visibility="Hidden" />
                     <TextBox Text="RSI Handle" GotFocus="rsihandle_GotFocus" Grid.Column="1" x:Name="rsihandle" HorizontalAlignment="Left" Height="23" Margin="271,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Visibility="Hidden" />
+                    <ListView Grid.Column="1" HorizontalAlignment="Left" Height="296" Margin="10,67,0,0" VerticalAlignment="Top" Width="646" Visibility="Hidden">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Button Content="Add Entry" Grid.Column="1" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="75" Visibility="Hidden"/>
+                    <Button Content="Delete Entry" Grid.Column="1" HorizontalAlignment="Left" Margin="90,42,0,0" VerticalAlignment="Top" Width="75" Visibility="Hidden"/>
+                    <Label Content="*Double click an entry to view full breif." Grid.Column="1" HorizontalAlignment="Left" Margin="170,39,0,0" VerticalAlignment="Top" Foreground="White" Visibility="Hidden"/>
+                    <Button Content="Revenue" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Width="76" IsEnabled="False"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Military" IsEnabled="False">
